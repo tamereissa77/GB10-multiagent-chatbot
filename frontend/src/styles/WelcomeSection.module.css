@@ -33,7 +33,7 @@
   color: #1f2937;
   max-width: 800px;
   letter-spacing: -0.5px;
-  background: linear-gradient(45deg, #76B900, #669f00);
+  background: linear-gradient(45deg, #0076CE, #005A9E);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -44,7 +44,7 @@
 
 :global(.dark) .welcomeMessage {
   color: #e5e7eb;
-  background: linear-gradient(45deg, #76B900, #9be024);
+  background: linear-gradient(45deg, #0076CE, #4DA6FF);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,7 +68,7 @@
   transition: all 0.3s ease;
   cursor: pointer;
   text-align: center;
-  border: 1px solid rgba(118, 185, 0, 0.1);
+  border: 1px solid rgba(0, 118, 206, 0.1);
   opacity: 0;
   transform: translateY(30px);
 }
@@ -99,25 +99,25 @@
 .agentCard.animate4:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  border-color: rgba(118, 185, 0, 0.3);
+  border-color: rgba(0, 118, 206, 0.3);
 }
 
 :global(.dark) .agentCard {
   background: #1f2937;
-  border-color: rgba(118, 185, 0, 0.2);
+  border-color: rgba(0, 118, 206, 0.2);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 :global(.dark) .agentCard:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  border-color: rgba(118, 185, 0, 0.4);
+  border-color: rgba(0, 118, 206, 0.4);
 }
 
 .agentIcon {
   width: 48px;
   height: 48px;
   margin: 0 auto 16px auto;
-  background: linear-gradient(45deg, #76B900, #669f00);
+  background: linear-gradient(45deg, #0076CE, #005A9E);
   border-radius: 12px;
   display: flex;
   align-items: center;
